@@ -77,7 +77,7 @@ class MainWindow(QMainWindow):
         gpus = GPUtil.getGPUs()
         gpu_values, total_number = 0, 0
         for gpu in gpus:
-            count += 1
+            total_number += 1
             gpu_values += gpu.load * 100
         
         try:
