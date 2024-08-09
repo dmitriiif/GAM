@@ -1,0 +1,44 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"GAM",
+			"icon":":/images/gamcoin.png",
+			"frameless": true,
+			"transluscentBg": true,
+			"navigation":[
+				{
+					"minimize":"minimizeButton",
+					"close": "closeButton",
+					"restore":[
+						{	
+							"buttonName": "fullscreenButton",
+							"normalIcon": ":/icons/square.svg",
+							"maximizedIcon": ":/icons/copy.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+	"QCustomQStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"homeButton": "home",
+							"helpButton": "help",
+							"profileButton": "profile",
+							"settingsButton": "settings"
+							
+						}
+					]
+				}
+			]
+	
+		}
+	]
+}
